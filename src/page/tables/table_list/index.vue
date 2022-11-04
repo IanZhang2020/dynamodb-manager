@@ -139,7 +139,7 @@ export default {
     },
     createdTable(params) {
       this.$dynamodb.createTable(params, res => {
-        this.$message.success(this.$t('message.success.delete_table').replace('{table_name}', params.TableName))
+        this.$message.success(this.$t('message.success.create_table').replace('{table_name}', params.TableName))
         this.showAddTable = false
         this.listTables()
       })
