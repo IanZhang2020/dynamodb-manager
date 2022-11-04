@@ -66,7 +66,7 @@ export default {
       }
       this.$dynamodb.describeTable(tableName, res => {
         console.log(res)
-        this.$tableSchema.schema = res.data.Table
+        this.$tableSchema.schema = JSON.parse(res.httpResponse.body.toString()).Table
         this.tableRefreshFinished(tableName)
       })
     }

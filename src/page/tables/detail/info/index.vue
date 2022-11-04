@@ -127,6 +127,10 @@ export default {
         {
           key: 'Table Arm',
           value: this.$tableSchema.tableArn
+        },
+        {
+          key: 'Table billing mode',
+          value: this.$tableSchema.billingMode
         }
       ]
     },

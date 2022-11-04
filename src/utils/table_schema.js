@@ -43,6 +43,10 @@ class DynamodbTableSchema {
     return this._schema.TableSizeBytes
   }
 
+  get billingMode() {
+    return this.BillingModeSummary.BillingMode || ''
+  }
+
   get readCapacityUnits() {
     return this.ProvisionedThroughput.ReadCapacityUnits
   }
@@ -118,6 +122,10 @@ class DynamodbTableSchema {
       })
     }
     return tableIndex
+  }
+
+  get BillingModeSummary() {
+    return this._schema.BillingModeSummary || {}
   }
 
   get ProvisionedThroughput() {

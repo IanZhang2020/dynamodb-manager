@@ -91,10 +91,6 @@ export default {
               KeySchema: keySchema,
               Projection: {
                 ProjectionType: tableIndex.projectionType
-              },
-              ProvisionedThroughput: {
-                ReadCapacityUnits: 5,
-                WriteCapacityUnits: 5
               }
             }
           }
@@ -103,6 +99,10 @@ export default {
       if (tableIndex.projectionType === 'INCLUDE') {
         params.GlobalSecondaryIndexUpdates[0].Create.Projection.NonKeyAttributes =
           tableIndex.nonKeyAttributes
+      }
+      if (this.$tableSchema.billingMode !== 'PAY_PER_REQUEST') {
+        params.GlobalSecondaryIndexUpdates[0].Create.ProvisionedThroughput =
+          tableIndex.provisionedThroughput
       }
       console.log(params)
       this.$dynamodb.updateTable(params, res => {

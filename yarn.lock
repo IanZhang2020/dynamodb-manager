@@ -441,19 +441,25 @@
     "postcss" "^6.0.17"
     "postcss-value-parser" "^3.2.3"
 
-"aws-sdk@^2.315.0":
-  "integrity" "sha1-bTZqeNWwCP2SfW/ySBXTnXi1R3g="
-  "resolved" "http://registry.npm.taobao.org/aws-sdk/download/aws-sdk-2.363.0.tgz"
-  "version" "2.363.0"
+"available-typed-arrays@^1.0.5":
+  "integrity" "sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/available-typed-arrays/-/available-typed-arrays-1.0.5.tgz"
+  "version" "1.0.5"
+
+"aws-sdk@^2.1245.0":
+  "integrity" "sha512-hBiVzkm5pxGchl+dn+uIApk76n3UOGuDmQBr1H2J25Ls8F7M9sNiumJby/cSjis+U+gAhl7u414SMY+ZTAJAkQ=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/aws-sdk/-/aws-sdk-2.1247.0.tgz"
+  "version" "2.1247.0"
   dependencies:
-    "buffer" "4.9.1"
+    "buffer" "4.9.2"
     "events" "1.1.1"
-    "ieee754" "1.1.8"
-    "jmespath" "0.15.0"
+    "ieee754" "1.1.13"
+    "jmespath" "0.16.0"
     "querystring" "0.2.0"
     "sax" "1.2.1"
     "url" "0.10.3"
-    "uuid" "3.1.0"
+    "util" "^0.12.4"
+    "uuid" "8.0.0"
     "xml2js" "0.4.19"
 
 "aws-sign2@~0.7.0":
@@ -1396,10 +1402,10 @@
   "resolved" "http://registry.npm.taobao.org/buffer-xor/download/buffer-xor-1.0.3.tgz"
   "version" "1.0.3"
 
-"buffer@^4.3.0", "buffer@4.9.1":
-  "integrity" "sha1-bRu2AbB6TvztlwlBMgkwJ8lbwpg="
-  "resolved" "http://registry.npm.taobao.org/buffer/download/buffer-4.9.1.tgz"
-  "version" "4.9.1"
+"buffer@^4.3.0", "buffer@4.9.2":
+  "integrity" "sha512-xq+q3SRMOxGivLhBNaUdC64hDTQwejJ+H0T/NB1XMtTVEwNTrfFF3gAxiyW0Bu/xWEGhjVKgUcMhCrUy2+uCWg=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/buffer/-/buffer-4.9.2.tgz"
+  "version" "4.9.2"
   dependencies:
     "base64-js" "^1.0.2"
     "ieee754" "^1.1.4"
@@ -1453,6 +1459,14 @@
     "to-object-path" "^0.3.0"
     "union-value" "^1.0.0"
     "unset-value" "^1.0.0"
+
+"call-bind@^1.0.2":
+  "integrity" "sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/call-bind/-/call-bind-1.0.2.tgz"
+  "version" "1.0.2"
+  dependencies:
+    "function-bind" "^1.1.1"
+    "get-intrinsic" "^1.0.2"
 
 "caller-path@^0.1.0":
   "integrity" "sha1-lAhe9jWB7NPaqSREqP6U6CV3dR8="
@@ -3231,6 +3245,13 @@
   dependencies:
     "debug" "=3.1.0"
 
+"for-each@^0.3.3":
+  "integrity" "sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/for-each/-/for-each-0.3.3.tgz"
+  "version" "0.3.3"
+  dependencies:
+    "is-callable" "^1.1.3"
+
 "for-in@^0.1.3":
   "integrity" "sha1-2Hc5COMSVhCZUrH9ubP6hn0ndeE="
   "resolved" "http://registry.npm.taobao.org/for-in/download/for-in-0.1.8.tgz"
@@ -3369,6 +3390,15 @@
   "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/get-caller-file/-/get-caller-file-2.0.5.tgz"
   "version" "2.0.5"
 
+"get-intrinsic@^1.0.2", "get-intrinsic@^1.1.3":
+  "integrity" "sha512-QJVz1Tj7MS099PevUG5jvnt9tSkXN8K14dxQlikJuPt4uD9hHAHjLyLBiLR5zELelBdD9QNRAXZzsJx0WaDL9A=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/get-intrinsic/-/get-intrinsic-1.1.3.tgz"
+  "version" "1.1.3"
+  dependencies:
+    "function-bind" "^1.1.1"
+    "has" "^1.0.3"
+    "has-symbols" "^1.0.3"
+
 "get-stdin@^4.0.1":
   "integrity" "sha1-uWjGsKBDhDJJAui/Gl3zJXmkUP4="
   "resolved" "http://registry.npm.taobao.org/get-stdin/download/get-stdin-4.0.1.tgz"
@@ -3475,6 +3505,13 @@
   dependencies:
     "delegate" "^3.1.2"
 
+"gopd@^1.0.1":
+  "integrity" "sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/gopd/-/gopd-1.0.1.tgz"
+  "version" "1.0.1"
+  dependencies:
+    "get-intrinsic" "^1.1.3"
+
 "graceful-fs@^4.1.11", "graceful-fs@^4.1.2":
   "integrity" "sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA=="
   "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/graceful-fs/-/graceful-fs-4.2.10.tgz"
@@ -3533,10 +3570,17 @@
   "resolved" "http://registry.npm.taobao.org/has-flag/download/has-flag-3.0.0.tgz"
   "version" "3.0.0"
 
-"has-symbols@^1.0.0":
-  "integrity" "sha1-uhqPGvKg/DllD1yFA2dwQSIGO0Q="
-  "resolved" "http://registry.npm.taobao.org/has-symbols/download/has-symbols-1.0.0.tgz"
+"has-symbols@^1.0.0", "has-symbols@^1.0.2", "has-symbols@^1.0.3":
+  "integrity" "sha512-l3LCuF6MgDNwTDKkdYGEihYjt5pRPbEg46rtlmnSPlUbgmB8LOIrKJbYYFBSbnPaJexMKtiPO8hmeRjRz2Td+A=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/has-symbols/-/has-symbols-1.0.3.tgz"
+  "version" "1.0.3"
+
+"has-tostringtag@^1.0.0":
+  "integrity" "sha512-kFjcSNhnlGV1kyoGk7OXKSawH5JOb/LzUc5w9B02hOTO0dfFRjbHQKvg1d6cf3HbeUmtU9VbbV3qzZ2Teh97WQ=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/has-tostringtag/-/has-tostringtag-1.0.0.tgz"
   "version" "1.0.0"
+  dependencies:
+    "has-symbols" "^1.0.2"
 
 "has-unicode@^2.0.0":
   "integrity" "sha512-8Rf9Y83NBReMnx0gFzA8JImQACstCYWUplepDa9xprwwtmgEZUF0h/i5xSA625zB/I37EtrswSST6OXxwaaIJQ=="
@@ -3763,10 +3807,10 @@
   dependencies:
     "postcss" "^6.0.1"
 
-"ieee754@^1.1.4", "ieee754@1.1.8":
-  "integrity" "sha1-vjPUCsEO8ZJnAfbwii2G+/0a0+Q="
-  "resolved" "http://registry.npm.taobao.org/ieee754/download/ieee754-1.1.8.tgz"
-  "version" "1.1.8"
+"ieee754@^1.1.4", "ieee754@1.1.13":
+  "integrity" "sha512-4vf7I2LYV/HaWerSo3XmlMkp5eZ83i+/CDluXi/IGTs/O1sejBNhTtnxzmRZfvOUqj7lZjqHkeTvpgSFDlWZTg=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/ieee754/-/ieee754-1.1.13.tgz"
+  "version" "1.1.13"
 
 "iferr@^0.1.5":
   "integrity" "sha1-xg7taebY/bazEEofy8ocGS3FtQE="
@@ -3918,6 +3962,14 @@
   dependencies:
     "kind-of" "^6.0.0"
 
+"is-arguments@^1.0.4":
+  "integrity" "sha512-8Q7EARjzEnKpt/PCD7e1cgUS0a6X8u5tdSiMqXhojOdoV9TsMsiO+9VLC5vAmO8N7/GmXn7yjR8qnA6bVAEzfA=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/is-arguments/-/is-arguments-1.1.1.tgz"
+  "version" "1.1.1"
+  dependencies:
+    "call-bind" "^1.0.2"
+    "has-tostringtag" "^1.0.0"
+
 "is-arrayish@^0.2.1":
   "integrity" "sha1-d8mYQFJ6qOyxqLppe4BkWnqSap0="
   "resolved" "http://registry.npm.taobao.org/is-arrayish/download/is-arrayish-0.2.1.tgz"
@@ -4049,6 +4101,13 @@
   "resolved" "http://registry.npm.taobao.org/is-fullwidth-code-point/download/is-fullwidth-code-point-2.0.0.tgz"
   "version" "2.0.0"
 
+"is-generator-function@^1.0.7":
+  "integrity" "sha512-jsEjy9l3yiXEQ+PsXdmBwEPcOxaXWLspKdplFUVI9vq1iZgIekeC0L167qeu86czQaxed3q/Uzuw0swL0irL8A=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/is-generator-function/-/is-generator-function-1.0.10.tgz"
+  "version" "1.0.10"
+  dependencies:
+    "has-tostringtag" "^1.0.0"
+
 "is-glob@^2.0.0":
   "integrity" "sha1-0Jb5JqPe1WAPP9/ZEZjLCIjC2GM="
   "resolved" "http://registry.npm.taobao.org/is-glob/download/is-glob-2.0.1.tgz"
@@ -4173,6 +4232,17 @@
   dependencies:
     "has-symbols" "^1.0.0"
 
+"is-typed-array@^1.1.10", "is-typed-array@^1.1.3":
+  "integrity" "sha512-PJqgEHiWZvMpaFZ3uTc8kHPM4+4ADTlDniuQL7cU/UDA0Ql7F70yGfHph3cLNe+c9toaigv+DFzTJKhc2CtO6A=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/is-typed-array/-/is-typed-array-1.1.10.tgz"
+  "version" "1.1.10"
+  dependencies:
+    "available-typed-arrays" "^1.0.5"
+    "call-bind" "^1.0.2"
+    "for-each" "^0.3.3"
+    "gopd" "^1.0.1"
+    "has-tostringtag" "^1.0.0"
+
 "is-typedarray@~1.0.0":
   "integrity" "sha512-cyA56iCMHAh5CdzjJIa4aohJyeO1YbwLi3Jc35MmRU6poroFjIGZzUzupGiRPOjgHg9TLu43xbpwXk523fMxKA=="
   "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/is-typedarray/-/is-typedarray-1.0.0.tgz"
@@ -4234,6 +4304,11 @@
   "integrity" "sha1-o/Iiqarp+Wb10nx5ZRDigJF2Qhc="
   "resolved" "http://registry.npm.taobao.org/jmespath/download/jmespath-0.15.0.tgz"
   "version" "0.15.0"
+
+"jmespath@0.16.0":
+  "integrity" "sha512-9FzQjJ7MATs1tSpnco1K6ayiYE3figslrXA72G2HQ/n76RzvYlofyi5QM+iX4YRs/pu3yzxlVQSST23+dMDknw=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/jmespath/-/jmespath-0.16.0.tgz"
+  "version" "0.16.0"
 
 "js-base64@^2.1.8", "js-base64@^2.1.9":
   "integrity" "sha1-dIkR+wT0imDEdxs3XKxFqA3xHAM="
@@ -7533,6 +7608,17 @@
   dependencies:
     "inherits" "2.0.3"
 
+"util@^0.12.4":
+  "integrity" "sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/util/-/util-0.12.5.tgz"
+  "version" "0.12.5"
+  dependencies:
+    "inherits" "^2.0.3"
+    "is-arguments" "^1.0.4"
+    "is-generator-function" "^1.0.7"
+    "is-typed-array" "^1.1.3"
+    "which-typed-array" "^1.1.2"
+
 "util@0.10.3":
   "integrity" "sha1-evsa/lCAUkZInj23/g7TeTNqwPk="
   "resolved" "http://registry.npm.taobao.org/util/download/util-0.10.3.tgz"
@@ -7555,10 +7641,10 @@
   "resolved" "http://registry.npm.taobao.org/uuid/download/uuid-3.3.2.tgz"
   "version" "3.3.2"
 
-"uuid@3.1.0":
-  "integrity" "sha1-PdPT55Crwk17DToDT/q6vijrvAQ="
-  "resolved" "http://registry.npm.taobao.org/uuid/download/uuid-3.1.0.tgz"
-  "version" "3.1.0"
+"uuid@8.0.0":
+  "integrity" "sha512-jOXGuXZAWdsTH7eZLtyXMqUb9EcWMGZNbL9YcGBJl4MH4nrxHmZJhEHvyLFrkxo+28uLb/NYRcStH48fnD0Vzw=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/uuid/-/uuid-8.0.0.tgz"
+  "version" "8.0.0"
 
 "validate-npm-package-license@^3.0.1":
   "integrity" "sha1-/JH2uce6FchX9MssXe/uw51PQQo="
@@ -7839,6 +7925,18 @@
   "integrity" "sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho="
   "resolved" "http://registry.npm.taobao.org/which-module/download/which-module-2.0.0.tgz"
   "version" "2.0.0"
+
+"which-typed-array@^1.1.2":
+  "integrity" "sha512-w9c4xkx6mPidwp7180ckYWfMmvxpjlZuIudNtDf4N/tTAUB8VJbX25qZoAsrtGuYNnGw3pa0AXgbGKRB8/EceA=="
+  "resolved" "https://artifacts.corp.zoom.us/artifactory/api/npm/zoom-npm-virtual/which-typed-array/-/which-typed-array-1.1.9.tgz"
+  "version" "1.1.9"
+  dependencies:
+    "available-typed-arrays" "^1.0.5"
+    "call-bind" "^1.0.2"
+    "for-each" "^0.3.3"
+    "gopd" "^1.0.1"
+    "has-tostringtag" "^1.0.0"
+    "is-typed-array" "^1.1.10"
 
 "which@^1.2.9", "which@^1.3.0", "which@1":
   "integrity" "sha1-pFBD1U9YBTFtqNYvn1CRjT2nCwo="
